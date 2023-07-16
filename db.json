@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "id": 1967,
+            "uid": "aae08be7-c028-4231-816c-9b801b777531",
+            "password": "zBNX7KELy4",
+            "first_name": "Mariella",
+            "last_name": "Abshire",
+            "username": "mariella.abshire",
+            "email": "mariella.abshire@email.com",
+            "avatar": "https://robohash.org/blanditiisremdebitis.png?size=300x300&set=set1",
+            "gender": "Bigender",
+            "phone_number": "+852 463.377.2091 x744",
+            "social_insurance_number": "134516848",
+            "date_of_birth": "1966-12-04",
+            "employment": {
+                "title": "Marketing Liaison",
+                "key_skill": "Organisation"
+            }
+        },
+        {
+            "id": 9276,
+            "uid": "80ad5421-7ebc-4c68-83ec-66f1db5216f2",
+            "password": "cA7plQvqSM",
+            "first_name": "Jeremy",
+            "last_name": "Hettinger",
+            "username": "jeremy.hettinger",
+            "email": "jeremy.hettinger@email.com",
+            "avatar": "https://robohash.org/magnamrepudiandaevel.png?size=300x300&set=set1",
+            "gender": "Polygender",
+            "phone_number": "+380 (970) 684-1887 x093",
+            "social_insurance_number": "955655840",
+            "date_of_birth": "1997-06-17",
+            "employment": {
+                "title": "Advertising Director",
+                "key_skill": "Organisation"
+            }
+        },
+        {
+            "id": 2691,
+            "uid": "911decb1-7044-44c4-8d01-062b2192b148",
+            "password": "Pi0LVm2vHD",
+            "first_name": "Robby",
+            "last_name": "Frami",
+            "username": "robby.frami",
+            "email": "robby.frami@email.com",
+            "avatar": "https://robohash.org/rerumexpeditadolorem.png?size=300x300&set=set1",
+            "gender": "Polygender",
+            "phone_number": "+500 (566) 586-6085 x79550",
+            "social_insurance_number": "756399648",
+            "date_of_birth": "1998-04-01",
+            "employment": {
+                "title": "Retail Manager",
+                "key_skill": "Organisation"
+            }
+        },
+        {
+            "id": 6398,
+            "uid": "a4d0fe0f-0394-486d-8f11-b488f3cb503c",
+            "password": "DuPTjwU57I",
+            "first_name": "Bettie",
+            "last_name": "Smith",
+            "username": "bettie.smith",
+            "email": "bettie.smith@email.com",
+            "avatar": "https://robohash.org/velitnostrumeveniet.png?size=300x300&set=set1",
+            "gender": "Male",
+            "phone_number": "+678 594.983.6897 x8139",
+            "social_insurance_number": "915846810",
+            "date_of_birth": "1968-08-05",
+            "employment": {
+                "title": "Direct Planner",
+                "key_skill": "Fast learner"
+            }
+        },
+        {
+            "id": 6739,
+            "uid": "db2d9446-5eaa-47b9-9c69-040cea8dd23d",
+            "password": "3RrhSH1IBv",
+            "first_name": "Harold",
+            "last_name": "Nitzsche",
+            "username": "harold.nitzsche",
+            "email": "harold.nitzsche@email.com",
+            "avatar": "https://robohash.org/doloressintveritatis.png?size=300x300&set=set1",
+            "gender": "Genderfluid",
+            "phone_number": "+691 915.917.3733",
+            "social_insurance_number": "583078795",
+            "date_of_birth": "1960-03-17",
+            "employment": {
+                "title": "Corporate Manufacturing Director",
+                "key_skill": "Problem solving"
+            }
+        },
+        {
+            "id": 1358,
+            "uid": "29721e7a-7feb-4a83-8bdd-bad795d8f85e",
+            "password": "6dJnNrCq7a",
+            "first_name": "Marjory",
+            "last_name": "Kilback",
+            "username": "marjory.kilback",
+            "email": "marjory.kilback@email.com",
+            "avatar": "https://robohash.org/assumendaperspiciatisvoluptatem.png?size=300x300&set=set1",
+            "gender": "Agender",
+            "phone_number": "+678 963.625.3297",
+            "social_insurance_number": "205753494",
+            "date_of_birth": "1997-11-28",
+            "employment": {
+                "title": "Marketing Specialist",
+                "key_skill": "Proactive"
+            }
+        },
+        {
+            "id": 681,
+            "uid": "3b688677-e1da-4081-a6e8-4c76574064d8",
+            "password": "iO8bMdofhA",
+            "first_name": "Vennie",
+            "last_name": "Gottlieb",
+            "username": "vennie.gottlieb",
+            "email": "vennie.gottlieb@email.com",
+            "avatar": "https://robohash.org/reiciendisvoluptatemquaerat.png?size=300x300&set=set1",
+            "gender": "Male",
+            "phone_number": "+678 (569) 740-1596",
+            "social_insurance_number": "924762446",
+            "date_of_birth": "1968-12-22",
+            "employment": {
+                "title": "Consulting Administrator",
+                "key_skill": "Self-motivated"
+            }
+        },
+        {
+            "id": 8617,
+            "uid": "d008226a-491a-42bc-be0e-686796bd3486",
+            "password": "usNynfvW2F",
+            "first_name": "Lavern",
+            "last_name": "Bednar",
+            "username": "lavern.bednar",
+            "email": "lavern.bednar@email.com",
+            "avatar": "https://robohash.org/culpaporrovoluptatum.png?size=300x300&set=set1",
+            "gender": "Male",
+            "phone_number": "+239 599.127.6220 x867",
+            "social_insurance_number": "394774855",
+            "date_of_birth": "1964-09-21",
+            "employment": {
+                "title": "IT Designer",
+                "key_skill": "Communication"
+            }
+        },
+        {
+            "id": 2531,
+            "uid": "9150aa16-df3b-49fd-b1df-8bc738b7acb8",
+            "password": "IrzFl5jiHD",
+            "first_name": "Ouida",
+            "last_name": "Balistreri",
+            "username": "ouida.balistreri",
+            "email": "ouida.balistreri@email.com",
+            "avatar": "https://robohash.org/temporibusmodivoluptatibus.png?size=300x300&set=set1",
+            "gender": "Non-binary",
+            "phone_number": "+966 (742) 618-2571",
+            "social_insurance_number": "792398323",
+            "date_of_birth": "1977-03-14",
+            "employment": {
+                "title": "Real-Estate Strategist",
+                "key_skill": "Confidence"
+            }
+        },
+        {
+            "id": 8505,
+            "uid": "f842645b-e4ec-4d0c-bfb3-0fabb90ecf4f",
+            "password": "Lr1buDQweS",
+            "first_name": "Jon",
+            "last_name": "Stokes",
+            "username": "jon.stokes",
+            "email": "jon.stokes@email.com",
+            "avatar": "https://robohash.org/accusantiumperspiciatisqui.png?size=300x300&set=set1",
+            "gender": "Non-binary",
+            "phone_number": "+386 574.058.0463 x743",
+            "social_insurance_number": "249808742",
+            "date_of_birth": "1970-12-31",
+            "employment": {
+                "title": "Customer Government Architect",
+                "key_skill": "Fast learner"
+            }
+        }
+    ]
+}
