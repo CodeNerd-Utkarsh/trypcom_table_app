@@ -1,32 +1,30 @@
+"use client"
 // import Image from 'next/image'
 import NextUI_Table from './components/NextUI_Table'
 import EvergreenUI_Table from './components/EvergreenUI_Table'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
-  const mockedData = [
-    {
-      "id": 3989,
-      "uid": "54e88eab-1a18-4c74-9b64-62a7d77b125a",
-      "password": "Hlp9SOiVCA",
-      "first_name": "Virgilio",
-      "last_name": "Kulas",
-      "username": "virgilio.kulas",
-      "email": "virgilio.kulas@email.com",
-      "avatar": "https://robohash.org/voluptatemenimadipisci.png?size=300x300&set=set1",
-      "gender": "Female",
-      "phone_number": "+225 (441) 197-0995 x24671",
-      "social_insurance_number": "768098121",
-      "date_of_birth": "1986-05-20",
-      "employment": {
-        "title": "Human Administration Designer",
-        "key_skill": "Networking skills"
-      }
-    },
+  const [userData, setUserData] = useState()
+  const headers = [
+    "uid", "username", "email", "DOB", "Avatar", "title", "key_skill"
   ]
+  useEffect(() => {
+    let controller = new AbortController();
+    async function fetchData() {
+      const res = await fetch("http://localhost:3003/data")
+      const data = await res.json()
+      setUserData(data)
+    }
+    fetchData()
+    return () => controller?.abort();
+  }, [])
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <EvergreenUI_Table />
-      <NextUI_Table />
+      {/* <h1 className='text-2xl p-12 '> Built using EvergreenUI</h1>
+      <EvergreenUI_Table rows={userData} headers={headers} /> */}
+      <h1 className='text-2xl p-12 '> Built using NextUI</h1>
+      <NextUI_Table rows={userData} headers={headers} />
     </main>
   )
 }
