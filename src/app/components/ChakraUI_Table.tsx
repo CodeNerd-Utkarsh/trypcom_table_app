@@ -58,11 +58,11 @@ function ChakraUI_Table({ rows, headers, sort, pagination, caption }: Props) {
                                 <Tr key={row.key}>
                                     <Td>{row.key}</Td>
                                     <Td>{row.username}</Td>
-                                    <Td>{row.email}</Td>
-                                    <Td>{row.DOB}</Td>
                                     <Td>
                                         <Image src={row.avatar} alt="user avatar" height={40} width={40} />
                                     </Td>
+                                    <Td>{row.email}</Td>
+                                    <Td>{row.DOB}</Td>
                                     <Td>{row.title}</Td>
                                     <Td>{row.key_skill}</Td>
                                 </Tr>

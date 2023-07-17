@@ -49,12 +49,12 @@ function EvergreenUI_Table({ rows, headers, sort, pagination, caption }: Props) 
                         >
                             <Table.TextCell >{row.key}</Table.TextCell>
                             <Table.TextCell >{row.username}</Table.TextCell>
-                            <Table.TextCell >{row.email}</Table.TextCell>
-
-                            <Table.TextCell >{row.DOB}</Table.TextCell>
                             <Table.TextCell >
                                 <Image src={row.avatar} alt="user avatar" height={40} width={40} />
                             </Table.TextCell>
+                            <Table.TextCell >{row.email}</Table.TextCell>
+
+                            <Table.TextCell >{row.DOB}</Table.TextCell>
 
                             <Table.TextCell >{row.title}</Table.TextCell>
                             <Table.TextCell >{row.key_skill}</Table.TextCell>

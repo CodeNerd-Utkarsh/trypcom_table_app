@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Install the dependecies:-
+```
+npm install
+```
+
 First, run the development server:
 
 ```bash
@@ -14,21 +19,24 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### You will see two Tables, one is created Using [ChakraUI](https://chakra-ui.com/) and the other is created using [EvergreenUI](https://evergreen.segment.com/). Both of them are very usefull in terms of quick component creation. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### A local [json-server](https://www.npmjs.com/package/json-server) is also running on [http://localhost:3003/data](http://localhost:3003/data), so you can see the data. 
+--------
 
-## Learn More
+## Special thanks to:-
 
-To learn more about Next.js, take a look at the following resources:
+[random-data-api.com](https://random-data-api.com/) for providing the data. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/manoylo"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:28px !important;">Buy me a coffee</span></a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**note:-**
+    This data is being filtered by a Python script running on my local machine and stored into **db.json**. Since, this project is purely about [Next.js](https://nextjs.org/), there is no python code in this repo...
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Special mentions:-
+```
+    "concurrently": "^8.2.0",
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    "json-server": "^0.17.3",
+```
