@@ -1,114 +1,94 @@
 {
     "data": [
         {
-            "uid": "aae08be7-c028-4231-816c-9b801b777531",
+            "key": "aae08be7-c028-4231-816c-9b801b777531",
             "username": "mariella.abshire",
             "email": "mariella.abshire@email.com",
             "avatar": "https://robohash.org/blanditiisremdebitis.png?size=300x300&set=set1",
             "DOB": "1966-12-04",
-            "employment": {
-                "title": "Marketing Liaison",
-                "key_skill": "Organisation"
-            }
+            "title": "Marketing Liaison",
+            "key_skill": "Organisation"
         },
         {
-            "uid": "80ad5421-7ebc-4c68-83ec-66f1db5216f2",
+            "key": "80ad5421-7ebc-4c68-83ec-66f1db5216f2",
             "username": "jeremy.hettinger",
             "email": "jeremy.hettinger@email.com",
             "avatar": "https://robohash.org/magnamrepudiandaevel.png?size=300x300&set=set1",
             "DOB": "1997-06-17",
-            "employment": {
-                "title": "Advertising Director",
-                "key_skill": "Organisation"
-            }
+            "title": "Advertising Director",
+            "key_skill": "Organisation"
         },
         {
-            "uid": "911decb1-7044-44c4-8d01-062b2192b148",
+            "key": "911decb1-7044-44c4-8d01-062b2192b148",
             "username": "robby.frami",
             "email": "robby.frami@email.com",
             "avatar": "https://robohash.org/rerumexpeditadolorem.png?size=300x300&set=set1",
             "DOB": "1998-04-01",
-            "employment": {
-                "title": "Retail Manager",
-                "key_skill": "Organisation"
-            }
+            "title": "Retail Manager",
+            "key_skill": "Organisation"
         },
         {
-            "uid": "a4d0fe0f-0394-486d-8f11-b488f3cb503c",
+            "key": "a4d0fe0f-0394-486d-8f11-b488f3cb503c",
             "username": "bettie.smith",
             "email": "bettie.smith@email.com",
             "avatar": "https://robohash.org/velitnostrumeveniet.png?size=300x300&set=set1",
             "DOB": "1968-08-05",
-            "employment": {
-                "title": "Direct Planner",
-                "key_skill": "Fast learner"
-            }
+            "title": "Direct Planner",
+            "key_skill": "Fast learner"
         },
         {
-            "uid": "db2d9446-5eaa-47b9-9c69-040cea8dd23d",
+            "key": "db2d9446-5eaa-47b9-9c69-040cea8dd23d",
             "username": "harold.nitzsche",
             "email": "harold.nitzsche@email.com",
             "avatar": "https://robohash.org/doloressintveritatis.png?size=300x300&set=set1",
             "DOB": "1960-03-17",
-            "employment": {
-                "title": "Corporate Manufacturing Director",
-                "key_skill": "Problem solving"
-            }
+            "title": "Corporate Manufacturing Director",
+            "key_skill": "Problem solving"
         },
         {
-            "uid": "29721e7a-7feb-4a83-8bdd-bad795d8f85e",
+            "key": "29721e7a-7feb-4a83-8bdd-bad795d8f85e",
             "username": "marjory.kilback",
             "email": "marjory.kilback@email.com",
             "avatar": "https://robohash.org/assumendaperspiciatisvoluptatem.png?size=300x300&set=set1",
             "DOB": "1997-11-28",
-            "employment": {
-                "title": "Marketing Specialist",
-                "key_skill": "Proactive"
-            }
+            "title": "Marketing Specialist",
+            "key_skill": "Proactive"
         },
         {
-            "uid": "3b688677-e1da-4081-a6e8-4c76574064d8",
+            "key": "3b688677-e1da-4081-a6e8-4c76574064d8",
             "username": "vennie.gottlieb",
             "email": "vennie.gottlieb@email.com",
             "avatar": "https://robohash.org/reiciendisvoluptatemquaerat.png?size=300x300&set=set1",
             "DOB": "1968-12-22",
-            "employment": {
-                "title": "Consulting Administrator",
-                "key_skill": "Self-motivated"
-            }
+            "title": "Consulting Administrator",
+            "key_skill": "Self-motivated"
         },
         {
-            "uid": "d008226a-491a-42bc-be0e-686796bd3486",
+            "key": "d008226a-491a-42bc-be0e-686796bd3486",
             "username": "lavern.bednar",
             "email": "lavern.bednar@email.com",
             "avatar": "https://robohash.org/culpaporrovoluptatum.png?size=300x300&set=set1",
             "DOB": "1964-09-21",
-            "employment": {
-                "title": "IT Designer",
-                "key_skill": "Communication"
-            }
+            "title": "IT Designer",
+            "key_skill": "Communication"
         },
         {
-            "uid": "9150aa16-df3b-49fd-b1df-8bc738b7acb8",
+            "key": "9150aa16-df3b-49fd-b1df-8bc738b7acb8",
             "username": "ouida.balistreri",
             "email": "ouida.balistreri@email.com",
             "avatar": "https://robohash.org/temporibusmodivoluptatibus.png?size=300x300&set=set1",
             "DOB": "1977-03-14",
-            "employment": {
-                "title": "Real-Estate Strategist",
-                "key_skill": "Confidence"
-            }
+            "title": "Real-Estate Strategist",
+            "key_skill": "Confidence"
         },
         {
-            "uid": "f842645b-e4ec-4d0c-bfb3-0fabb90ecf4f",
+            "key": "f842645b-e4ec-4d0c-bfb3-0fabb90ecf4f",
             "username": "jon.stokes",
             "email": "jon.stokes@email.com",
             "avatar": "https://robohash.org/accusantiumperspiciatisqui.png?size=300x300&set=set1",
             "DOB": "1970-12-31",
-            "employment": {
-                "title": "Customer Government Architect",
-                "key_skill": "Fast learner"
-            }
+            "title": "Customer Government Architect",
+            "key_skill": "Fast learner"
         }
     ]
 }
