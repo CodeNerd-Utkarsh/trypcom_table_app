@@ -2,12 +2,12 @@
 import { SearchInput } from 'evergreen-ui';
 import { Input } from '@chakra-ui/react'
 import ChakraUI_Table from './components/ChakraUI_Table'
-// import Image from 'next/image'
 
 import EvergreenUI_Table from './components/EvergreenUI_Table'
 import { useEffect, useState } from 'react'
+import { ChakraUIProps, } from './_types';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   const headers = [
     {
       key: "uid",
@@ -38,11 +38,11 @@ export default function Home() {
       label: "key-Skill",
     },
   ];
-  const [userData, setUserData] = useState()
-  const [searchResult, setSearchResult] = useState(userData)
-  function handleSearch(e: any) {
+  const [userData, setUserData] = useState<ChakraUIProps | undefined>()
+  const [searchResult, setSearchResult] = useState()
+  function handleSearch(e: React.ChangeEvent<HTMLInputElement>) {
     if (!e.target.value) return setSearchResult(userData)
-    const resultArr = userData.filter((data) => {
+    const resultArr = userData.filter((data: { key: string; username: string; email: string; title: string; DOB: string; }) => {
       return data.key.includes(e.target.value)
         || data.username.includes(e.target.value)
         || data.email.includes(e.target.value)
@@ -55,7 +55,7 @@ export default function Home() {
 
   useEffect(() => {
     let controller = new AbortController();
-    async function fetchData() {
+    async function fetchData(): Promise<void> {
       const res = await fetch("http://localhost:3003/data")
       const data = await res.json()
       Promise.all([
@@ -85,7 +85,6 @@ export default function Home() {
         <SearchInput
           width={400}
           margin={22}
-
           placeholder="Search user..."
           onChange={handleSearch}
         />

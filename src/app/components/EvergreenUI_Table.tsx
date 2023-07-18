@@ -1,32 +1,9 @@
+import { EvergreenUIProps } from "../_types/"
 import { Table } from 'evergreen-ui'
 import Image from 'next/image'
-import React from 'react'
 
-interface Props {
-    rows: {
 
-        key: string,
-        username: string,
-        email: string,
-        avatar: string,
-        DOB: string,
-
-        title: string,
-        key_skill: string
-
-    }[] | undefined
-
-    headers: {
-        key: string;
-        label: string;
-    }[]
-
-    sort?: boolean
-    pagination?: boolean
-    caption?: string
-}
-
-function EvergreenUI_Table({ rows, headers, sort, pagination, caption }: Props) {
+function EvergreenUI_Table({ rows, headers, sort, pagination, caption }: EvergreenUIProps): JSX.Element {
     return (
         <section className='h-screen w-full'>
 

@@ -11,32 +11,12 @@ import {
     TableCaption,
     TableContainer,
 } from '@chakra-ui/react'
+import { ChakraUIProps } from "../_types/"
 import Image from 'next/image'
 
 
-interface Props {
-    rows: {
 
-        key: string,
-        username: string,
-        email: string,
-        avatar: string,
-        DOB: string,
-        title: string,
-        key_skill: string
-
-    }[] | undefined
-
-    headers: {
-        key: string;
-        label: string;
-    }[]
-    sort?: boolean
-    pagination?: boolean
-    caption?: string
-}
-
-function ChakraUI_Table({ rows, headers, sort, pagination, caption }: Props) {
+function ChakraUI_Table({ rows, headers, sort, pagination, caption }: ChakraUIProps): JSX.Element {
     return (
         <section className='h-screen w-full'>
             <TableContainer>
