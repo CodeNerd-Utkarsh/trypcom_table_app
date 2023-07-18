@@ -27,13 +27,12 @@ interface Props {
 }
 
 function EvergreenUI_Table({ rows, headers, sort, pagination, caption }: Props) {
-
     return (
         <section className='h-screen w-full'>
 
             <Table className='w-full'>
-
                 <Table.Head>
+
                     {
                         headers?.map((header) => (
                             <Table.TextHeaderCell key={header.key}>{header.label}</Table.TextHeaderCell>
