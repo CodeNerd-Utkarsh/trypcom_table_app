@@ -49,7 +49,6 @@ export default function Home(): JSX.Element {
         || data.title.includes(e.target.value)
         || data.DOB.includes(e.target.value)
     })
-    // setUserData(resultArr)
     setSearchResult(resultArr)
   }
 
@@ -69,17 +68,19 @@ export default function Home(): JSX.Element {
   }, [])
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      {/* don't forget to comment out the other table component */}
       <>
         <h1 className='text-2xl p-12 '> Built using ChakraUI</h1>
         <Input
-
           width={400}
           margin={22}
           placeholder='Search user'
           onChange={handleSearch}
         />
-        <ChakraUI_Table rows={searchResult} headers={headers} />
+        <ChakraUI_Table rows={searchResult} headers={headers} caption='This is a table created using ChakraUI' />
       </>
+      {/* don't forget to comment out the other table component */}
+
       <>
         <h1 className='text-2xl p-12 '> Built using EvergreenUI</h1>
         <SearchInput
@@ -88,7 +89,7 @@ export default function Home(): JSX.Element {
           placeholder="Search user..."
           onChange={handleSearch}
         />
-        <EvergreenUI_Table rows={searchResult} headers={headers} />
+        <EvergreenUI_Table rows={searchResult} headers={headers} caption='This is a table created using EvergreenUI' />
       </>
     </main>
   )

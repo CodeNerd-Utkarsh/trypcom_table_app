@@ -21,8 +21,11 @@ function ChakraUI_Table({ rows, headers, sort, pagination, caption }: ChakraUIPr
         <section className='h-screen w-full'>
             <TableContainer>
                 <Table variant='simple'>
-
-                    {/* <TableCaption>{caption}</TableCaption> */}
+                    {
+                        caption ? (
+                            <TableCaption>{caption}</TableCaption>
+                        ) : (null)
+                    }
                     <Thead>
                         <Tr>
                             {

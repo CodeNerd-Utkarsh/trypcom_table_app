@@ -7,6 +7,7 @@ function EvergreenUI_Table({ rows, headers, sort, pagination, caption }: Evergre
     return (
         <section className='h-screen w-full'>
 
+            <h1>{caption ? (caption) : (null)}</h1>
             <Table className='w-full'>
                 <Table.Head>
 
